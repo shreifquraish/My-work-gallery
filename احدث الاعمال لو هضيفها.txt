@@ -1,0 +1,48 @@
+ قبل معلومات الاتصال
+
+
+<!-- أحدث الأعمال -->
+    <section class="latest-works">
+        <div class="container">
+            <h2 class="section-title">أحدث الأعمال</h2>
+            <p class="section-subtitle">لمحة عن أحدث المشاريع التي تم إنجازها</p>
+            
+            <div class="works-grid">
+                <div class="work-card">
+                    <div class="work-image">
+                        <img src="https://images.unsplash.com/photo-1634942537034-2531766767d1?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="عمل حديث">
+                    </div>
+                    <div class="work-info">
+                        <span class="work-category">لوجو</span>
+                        <h3>تصميم لوجو لشركة تقنية</h3>
+                        <p>تصميم عصري يجمع بين البساطة والتقنية</p>
+                        <a href="logos.html" class="view-more">عرض التفاصيل</a>
+                    </div>
+                </div>
+                
+                <div class="work-card">
+                    <div class="work-image">
+                        <img src="https://images.unsplash.com/photo-1545235617-9465d2a55698?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="عمل حديث">
+                    </div>
+                    <div class="work-info">
+                        <span class="work-category">كروت شخصية</span>
+                        <h3>كروت شخصية لشركة عقارية</h3>
+                        <p>تصميم أنيق يعكس الاحترافية والثقة</p>
+                        <a href="business-cards.html" class="view-more">عرض التفاصيل</a>
+                    </div>
+                </div>
+                
+                <div class="work-card">
+                    <div class="work-image">
+                        <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="عمل حديث">
+                    </div>
+                    <div class="work-info">
+                        <span class="work-category">دعوات فرح</span>
+                        <h3>دعوة زفاف كلاسيكية</h3>
+                        <p>تصميم فاخر يعكس رقي وجمال المناسبة</p>
+                        <a href="wedding.html" class="view-more">عرض التفاصيل</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>

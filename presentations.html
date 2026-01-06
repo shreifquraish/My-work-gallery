@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شريف قريش | معرض العروض التقديمية</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <i class="fas fa-palette"></i>
+                <span>معرض أعمالي</span>
+            </div>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="logos.html">اللوجوهات</a></li>
+                    <li><a href="business-cards.html">الكروت الشخصية</a></li>
+                    <li><a href="qrcodes.html">QR Codes</a></li>
+                    <li><a href="cv.html">السيرة الذاتية</a></li>
+                    <li><a href="wedding.html">دعوات الفرح</a></li>
+                    <li><a href="presentations.html" class="active">العروض التقديمية</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="gallery-page">
+        <div class="container">
+            <div class="page-header">
+                <h1>معرض العروض التقديمية</h1>
+                <p>هنا يمكنك مشاهدة عينات من العروض التقديمية التي قمت بتصميمها.<strong></strong></p>
+            </div>
+            
+            <!-- قسم الفيديوهات -->
+            <div class="videos-section">
+                <h2 class="section-subtitle"><i class="fas fa-video"></i> فيديوهات العروض التقديمية</h2>
+                <p class="section-description">شاهد عينات من العروض التقديمية التي قمت بتصميمها. انقر على أي فيديو لمشاهدته في نافذة كاملة.</p>
+                
+                <div class="videos-grid">
+                    <!-- فيديو 1 -->
+                    <div class="video-card">
+                        <div class="video-thumbnail">
+                            <div class="thumbnail-overlay">
+                                <i class="fas fa-play-circle"></i>
+                            </div>
+                            <img src="images/video-thumbnails/pres1.jpg" alt="عرض تقديمي 1" class="thumbnail-img">
+                        </div>
+                        <div class="video-info">
+                            <div class="video-header">
+                                <h3 class="video-title">عرض تقديمي عن الاساسات</h3>
+                                <span class="video-duration"><i class="fas fa-clock"></i> 0:50</span>
+                            </div>
+                            <p class="video-description">عرض تقديمي كامل عن الاساسات يشمل جميع الشرائح والرسومات المتحركة.</p>
+                            <div class="video-actions">
+                                <a href="videos/presentations/pres1.mp4" class="play-btn" data-fancybox data-type="iframe" data-src="videos/presentations/pres1.mp4">
+                                    <i class="fas fa-play"></i> تشغيل الفيديو
+                                </a>
+                                
+                            </div>
+                            <div class="video-meta">
+                                <span><i class="far fa-calendar"></i>اكتوبر 2025</span>
+                                <span><i class="fas fa-sliders-h"></i> 10 شرايح</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- فيديو 2 -->
+                    <div class="video-card">
+                        <div class="video-thumbnail">
+                            <div class="thumbnail-overlay">
+                                <i class="fas fa-play-circle"></i>
+                            </div>
+                            <img src="images/video-thumbnails/presentation2.jpg" alt="عرض تقديمي 2" class="thumbnail-img">
+                        </div>
+                        <div class="video-info">
+                            <div class="video-header">
+                                <h3 class="video-title">عرض عن العزل في المبانى </h3>
+                                <span class="video-duration"><i class="fas fa-clock"></i> 0:50</span>
+                            </div>
+                            <p class="video-description">عرض تقديمي عن طرق العزل في المبانى مع تصاميم مبتكرة وجذابة.</p>
+                            <div class="video-actions">
+                                <a href="videos/presentations/presentation2.mp4" class="play-btn" data-fancybox data-type="iframe" data-src="videos/presentations/presentation2.mp4">
+                                    <i class="fas fa-play"></i> تشغيل الفيديو
+                                </a>
+                               
+                            </div>
+                            <div class="video-meta">
+                                 <span><i class="far fa-calendar"></i>اكتوبر 2025</span>
+                                <span><i class="fas fa-sliders-h"></i> 10 شرايح</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- فيديو 3 -->
+                    <div class="video-card">
+                        <div class="video-thumbnail">
+                            <div class="thumbnail-overlay">
+                                <i class="fas fa-play-circle"></i>
+                            </div>
+                            <img src="images/video-thumbnails/presentation3.jpg" alt="عرض تقديمي 3" class="thumbnail-img">
+                        </div>
+                        <div class="video-info">
+                            <div class="video-header">
+                                <h3 class="video-title">عرض اساسيات البناء بالطوب </h3>
+                                <span class="video-duration"><i class="fas fa-clock"></i> 0:50</span>
+                            </div>
+                            <p class="video-description">عرض تقديمي مع تحليل البيانات وعرض النتائج.</p>
+                            <div class="video-actions">
+                                <a href="videos/presentations/presentation3.mp4" class="play-btn" data-fancybox data-type="iframe" data-src="videos/presentations/presentation3.mp4">
+                                    <i class="fas fa-play"></i> تشغيل الفيديو
+                                </a>
+                               
+                            </div>
+                            <div class="video-meta">
+                                 <span><i class="far fa-calendar"></i>اكتوبر 2025</span>
+                                <span><i class="fas fa-sliders-h"></i> 10 شرايح</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- فيديو 4 -->
+                    <div class="video-card">
+                        <div class="video-thumbnail">
+                            <div class="thumbnail-overlay">
+                                <i class="fas fa-play-circle"></i>
+                            </div>
+                            <img src="images/video-thumbnails/presentation4.jpg" alt="عرض تقديمي 4" class="thumbnail-img">
+                        </div>
+                        <div class="video-info">
+                            <div class="video-header">
+                                <h3 class="video-title">عرض تقديمى عن الاسقف </h3>
+                                <span class="video-duration"><i class="fas fa-clock"></i> 0:50</span>
+                            </div>
+                            <p class="video-description">عرض تقديمي عن الاسقف مع صور للاشكال.</p>
+                            <div class="video-actions">
+                                <a href="videos/presentations/presentation4.mp4" class="play-btn" data-fancybox data-type="iframe" data-src="videos/presentations/presentation4.mp4">
+                                    <i class="fas fa-play"></i> تشغيل الفيديو
+                                </a>
+                                
+                            </div>
+                            <div class="video-meta">
+                                  <span><i class="far fa-calendar"></i>اكتوبر 2025</span>
+                                <span><i class="fas fa-sliders-h"></i> 10 شرايح</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- فيديو 5 -->
+                    <div class="video-card">
+                        <div class="video-thumbnail">
+                            <div class="thumbnail-overlay">
+                                <i class="fas fa-play-circle"></i>
+                            </div>
+                            <img src="images/video-thumbnails/presentation5.jpg" alt="عرض تقديمي 5" class="thumbnail-img">
+                        </div>
+                        <div class="video-info">
+                            <div class="video-header">
+                                <h3 class="video-title">عرض تقديمى عن السلالم</h3>
+                                <span class="video-duration"><i class="fas fa-clock"></i> 0:50</span>
+                            </div>
+                            <p class="video-description">عرض تقديمي عن السلالم مع شرح مفصل للمزايا والفوائد.</p>
+                            <div class="video-actions">
+                                <a href="videos/presentations/presentation5.mp4" class="play-btn" data-fancybox data-type="iframe" data-src="videos/presentations/presentation5.mp4">
+                                    <i class="fas fa-play"></i> تشغيل الفيديو
+                                </a>
+                              
+                            </div>
+                            <div class="video-meta">
+                                   <span><i class="far fa-calendar"></i>اكتوبر 2025</span>
+                                <span><i class="fas fa-sliders-h"></i> 10 شرايح</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- فيديو 6 -->
+                    <div class="video-card">
+                        <div class="video-thumbnail">
+                            <div class="thumbnail-overlay">
+                                <i class="fas fa-play-circle"></i>
+                            </div>
+                            <img src="images/video-thumbnails/presentation6.jpg" alt="عرض تقديمي 6" class="thumbnail-img">
+                        </div>
+                        <div class="video-info">
+                            <div class="video-header">
+                                <h3 class="video-title">عرض تقديمى عن التلوث الصوتى</h3>
+                                <span class="video-duration"><i class="fas fa-clock"></i> 0:50</span>
+                            </div>
+                            <p class="video-description">عرض تقديمي عن التلوث الصوتى مع شرح مفصل للمزايا والفوائد.</p>
+                            <div class="video-actions">
+                                <a href="videos/presentations/presentation6.mp4" class="play-btn" data-fancybox data-type="iframe" data-src="videos/presentations/presentation6.mp4">
+                                    <i class="fas fa-play"></i> تشغيل الفيديو
+                                </a>
+                              
+                            </div>
+                            <div class="video-meta">
+                                   <span><i class="far fa-calendar"></i>اكتوبر 2025</span>
+                                <span><i class="fas fa-sliders-h"></i> 10 شرايح</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- قسم صور العروض -->
+            <div class="presentation-images">
+                <h2 class="section-subtitle"><i class="fas fa-images"></i> صور من العروض التقديمية</h2>
+                <p class="section-description">عرض لبعض الشرائح المميزة من العروض التقديمية</p>
+                
+                <div class="images-grid">
+                    <div class="presentation-image">
+                        <a href="images/presentations/slide1.jpg" data-fancybox="presentation-gallery">
+                            <img src="images/presentations/slide1.jpg" alt="شريحة عرض تقديمي">
+                        </a>
+                    </div>
+                    <div class="presentation-image">
+                        <a href="images/presentations/slide2.jpg" data-fancybox="presentation-gallery">
+                            <img src="images/presentations/slide2.jpg" alt="شريحة عرض تقديمي">
+                        </a>
+                    </div>
+                    <div class="presentation-image">
+                        <a href="images/presentations/slide3.jpg" data-fancybox="presentation-gallery">
+                            <img src="images/presentations/slide3.jpg" alt="شريحة عرض تقديمي">
+                        </a>
+                    </div>
+                    <div class="presentation-image">
+                        <a href="images/presentations/slide4.jpg" data-fancybox="presentation-gallery">
+                            <img src="images/presentations/slide4.jpg" alt="شريحة عرض تقديمي">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 50px;">
+                <a href="index.html" class="back-button">
+                    <i class="fas fa-arrow-right"></i> العودة للرئيسية
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>شريف قريش - معرض أعمالي</h3>
+                    <p>موقع احترافي لعرض الأعمال التصميمية في مجالات متعددة، يقدم حلولاً إبداعية تلبي احتياجات العملاء.</p>
+                    <div class="footer-social">
+                        <a href="https://facebook.com/shreif-Engineer" target="_blank" class="social-icon" title="تابعني على فيسبوك">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/shreif.quraish?utm_source=qr&igsh=YOUR_IGSH_CODE" 
+                           target="_blank" class="social-icon" title="تابعني على إنستجرام">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        
+                        <a href="https://www.linkedin.com/in/shreif-quraish-60618837a?utm_source=share_via&utm_content=profile&utm_medium=member_android" 
+                           target="_blank" class="social-icon" title="تابعني على لينكد إن">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        
+                        <a href="https://www.behance.net/2d9c19bf" 
+                           target="_blank" class="social-icon" title="شاهد أعمالي على Behance">
+                            <i class="fab fa-behance"></i>
+                        </a>
+                        
+                        <a href="https://wa.me/201003041351" 
+                           target="_blank" class="social-icon" title="راسلني على واتساب">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        
+                        <a href="https://link.gettap.co/shreif_engineer" 
+                           target="_blank" class="social-icon" title="تابعني على TAP">
+                            <i class="fas fa-mobile-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>روابط سريعة</h3>
+                    <ul>
+                        <li><a href="index.html">الرئيسية</a></li>
+                        <li><a href="logos.html">اللوجوهات</a></li>
+                        <li><a href="business-cards.html">الكروت الشخصية</a></li>
+                        <li><a href="qrcodes.html">QR Codes</a></li>
+                        <li><a href="cv.html">السيرة الذاتية</a></li>
+                        <li><a href="wedding.html">دعوات الفرح</a></li>
+                        <li><a href="presentations.html">العروض التقديمية</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>خدماتي</h3>
+                    <ul>
+                        <li>تصميم الهويات البصرية</li>
+                        <li>تصميم المطبوعات</li>
+                        <li>تصميم الوسائط المتعددة</li>
+                        <li>تصميم السيرة الذاتية</li>
+                        <li>تصميم دعوات المناسبات</li>
+                        <li>تصميم العروض التقديمية</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>جميع الحقوق محفوظة &copy; شريف قريش <span id="currentYear"></span></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Video Modal -->
+    <div id="videoModal" class="video-modal">
+        <div class="video-modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="video-player-container">
+                <video id="modalVideo" controls>
+                    <source src="" type="video/mp4">
+                    متصفحك لا يدعم تشغيل الفيديو.
+                </video>
+                <div class="video-info-modal">
+                    <h3 id="videoTitleModal"></h3>
+                    <p id="videoDescriptionModal"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <script>
+        // دالة لتشغيل الفيديو
+        function playVideo(videoUrl, title, description) {
+            const modal = document.getElementById('videoModal');
+            const video = document.getElementById('modalVideo');
+            const titleEl = document.getElementById('videoTitleModal');
+            const descEl = document.getElementById('videoDescriptionModal');
+            
+            video.src = videoUrl;
+            titleEl.textContent = title;
+            descEl.textContent = description;
+            
+            modal.style.display = 'block';
+            video.play();
+            
+            // إغلاق المودال
+            document.querySelector('.close-modal').onclick = function() {
+                modal.style.display = 'none';
+                video.pause();
+            }
+            
+            // إغلاق عند الضغط خارج المودال
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = 'none';
+                    video.pause();
+                }
+            }
+        }
+        
+        // دالة لتحميل الفيديو
+        function downloadVideo(url, filename) {
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = filename;
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+        
+        // تهيئة Fancybox للفيديوهات
+        $(document).ready(function() {
+            $('[data-fancybox]').fancybox({
+                iframe: {
+                    preload: false
+                }
+            });
+        });
+        
+        // قائمة الجوال
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+            const mainNav = document.getElementById('mainNav');
+            
+            if (mobileMenuBtn) {
+                mobileMenuBtn.addEventListener('click', function() {
+                    mainNav.classList.toggle('active');
+                });
+            }
+            
+            // تحديث السنة
+            const currentYear = document.getElementById('currentYear');
+            if (currentYear) {
+                currentYear.textContent = new Date().getFullYear();
+            }
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
